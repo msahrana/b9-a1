@@ -149,3 +149,23 @@ header .banner-1 {
     padding: 15px;
     border: 0;
 }
+.footer{
+    padding-left: 120px;
+    padding-right: 120px;
+ background-color: black;
+ color: white;
+ padding-top: 60px;
+ padding-bottom: 60px;
+ text-align: center;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-2{
+    margin: 20px 0;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
