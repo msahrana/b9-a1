@@ -10,6 +10,7 @@ header, main {
   width: 75%;
 }
 header .banner-1 {
+  margin-top: 16px;
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
@@ -57,7 +58,13 @@ header .banner-1 {
   font-size: 48px;
   font-weight: 700;
 }
+.banner-2 p, h3{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 .banner-2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
 }
 .new-year-pic {
@@ -70,8 +77,8 @@ header .banner-1 {
   height: 700px;
   background-repeat: no-repeat;
   padding-left: 100px;
+  margin-top: 60px;
 }
-
 .btn-primary {
   color: white;
   background-color: #06a420;
@@ -86,13 +93,12 @@ header .banner-1 {
   padding-left: 50px;
   vertical-align: right;
 }
-
 .btn-secondary {
   background: #f00;
   color: white;
   border: 0;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px 20px;
 }
 #date-time {
   text-align: center;
@@ -100,6 +106,10 @@ header .banner-1 {
   padding: 50px 0;
   border-radius: 15px;
   margin-bottom: 60px;
+  margin-bottom: 30px;
+}
+.date{
+  margin-top: 20px;
 }
 .date-time {
   color: #f00;
@@ -138,20 +148,11 @@ header .banner-1 {
 .holidays-text * {
   margin-bottom: 10px;
 }
-/* #holidays .holidays img{
-  max-width: 1920px;
-  
-} */
-/* .holidays {
+.holidays {
   background-image: url("../resources/Rectangle 2.png");
   background-repeat: no-repeat;
   height: 400px;
-} */
-/* .holidays {
-  background-image: url("../resources/Rectangle 2.png");
-  background-repeat: no-repeat;
-  height: 400px;
-} */
+}
 .image {
   display: flex;
 }
@@ -172,7 +173,7 @@ header .banner-1 {
   margin-top: 30px;
 }
 .portfolio {
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .newsletter {
   background-color: rgba(255, 0, 0, 0.05);
@@ -180,6 +181,14 @@ header .banner-1 {
   border-radius: 15px;
   margin-bottom: 60px;
   text-align: center;
+}
+.newsletter h1 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.newsletter p {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .btn-tertiary {
   background-color: #f00;
