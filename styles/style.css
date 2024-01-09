@@ -7,6 +7,10 @@ main {
   margin-right: 160px;
 }
 header .banner-1 {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+header .banner-1 {
   background-image: url("../resources/Banner.png");
   border-radius: 15px;
   width: 100%;
@@ -18,12 +22,12 @@ header .banner-1 {
   margin-left: 160px;
   margin-right: 160px;
   padding-top: 120px;
-  color: #06a420;
+  color: white;
   text-align: center;
   font-size: 40px;
 }
 .banner-celebrate {
-  color: #06a420;
+  color: white;
   text-align: center;
   font-size: 72px;
   font-weight: 900;
@@ -71,7 +75,7 @@ header .banner-1 {
   background-color: #06a420;
   border-radius: 10px;
   border: 0;
-  padding: 5px;
+  padding: 5px 10px;
 }
 .banner-3-left {
   color: white;
@@ -86,86 +90,112 @@ header .banner-1 {
   color: white;
   border: 0;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 10px;
 }
-#date-time{
-    text-align: center;
-    background-color: rgba(255, 0, 0, 0.10);
-    padding: 50px 0;
-    border-radius: 15px;
-    margin-bottom: 60px;
+#date-time {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 50px 0;
+  border-radius: 15px;
+  margin-bottom: 60px;
 }
-.date-time{
-    color: #f00;
+.date-time {
+  color: #f00;
 }
-.best-offer{
-    display: flex;
-    justify-content: space-around;
+.best-offer {
+  display: flex;
+  justify-content: space-around;
 }
-.best-1 img{
-    background-color: #f00;
-    padding: 40px;
-    border-radius: 50%;
-    
+.best-1 img {
+  background-color: #f00;
+  padding: 40px;
+  border-radius: 50%;
 }
-.holidays{
-    background-image: url('../resources/Rectangle 2.png');
-    background-repeat: no-repeat;
-    height: 400px;
+#portfolio img {
+  cursor: pointer;
+  transition: 1s;
 }
-.image{
-    display: flex;
+#portfolio img:hover {
+  border: 5px solid green;
+  background-color: red;
 }
-.image-1{
-    width: 600px;
-    height: 600px;
+.holidays-text {
+  text-align: center;
+  margin: 60px 0;
 }
-.image-2{
-    width: 300px;
-    height: 300px;
+.holidays-text h1 {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
 }
-.image-3{
-    width: 500px;
-    height: 600px;
+.holidays-text h4 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
 }
-#portfolio{
-    margin-bottom: 30px;
+.holidays-text * {
+  margin-bottom: 10px;
 }
-.newsletter{
-    background-color: rgba(255, 0, 0, 0.05);
-    padding: 50px 0;
-    border-radius: 15px;
-    margin-bottom: 60px;
-    text-align: center;
+.holidays {
+  background-image: url("../resources/Rectangle 2.png");
+  background-repeat: no-repeat;
+  height: 400px;
 }
-.btn-tertiary{
-    background-color: #f00;
-    color: white;
-    border-radius: 0 15px 15px 0;
-    padding: 15px;
-    border: 0;
+.image {
+  display: flex;
 }
-.email-part{
-    padding: 15px;
-    border: 0;
+.image-1 {
+  width: 600px;
+  height: 600px;
 }
-.footer{
-    padding-left: 120px;
-    padding-right: 120px;
- background-color: black;
- color: white;
- padding-top: 60px;
- padding-bottom: 60px;
- text-align: center;
+.image-2 {
+  width: 300px;
+  height: 300px;
 }
-.footer-1{
-    display: flex;
-    justify-content: space-around;
+.image-3 {
+  width: 500px;
+  height: 600px;
 }
-.footer-2{
-    margin: 20px 0;
-    display: flex;
-    text-align: center;
-    vertical-align: middle;
-    margin-right: 10px;
+#portfolio {
+  margin-bottom: 30px;
+}
+.newsletter {
+  background-color: rgba(255, 0, 0, 0.05);
+  padding: 50px 0;
+  border-radius: 15px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.btn-tertiary {
+  background-color: #f00;
+  color: white;
+  border-radius: 0 15px 15px 0;
+  padding: 15px;
+  border: 0;
+}
+.email-part {
+  padding: 15px;
+  border: 0;
+}
+.footer {
+  padding-left: 120px;
+  padding-right: 120px;
+  background-color: black;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.footer-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-2 {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.footer-3 {
+  display: flex;
+  justify-content: space-around;
 }
