@@ -1,10 +1,13 @@
 * {
   font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
-header,
-main {
+header, main {
   margin-left: 200px;
   margin-right: 160px;
+  width: 75%;
 }
 header .banner-1 {
   border-radius: 16px;
@@ -136,16 +139,25 @@ header .banner-1 {
 .holidays-text * {
   margin-bottom: 10px;
 }
-.holidays {
+/* #holidays .holidays img{
+  max-width: 1920px;
+  
+} */
+/* .holidays {
   background-image: url("../resources/Rectangle 2.png");
   background-repeat: no-repeat;
   height: 400px;
-}
+} */
+/* .holidays {
+  background-image: url("../resources/Rectangle 2.png");
+  background-repeat: no-repeat;
+  height: 400px;
+} */
 .image {
   display: flex;
 }
 .image-1 {
-  width: 600px;
+  width: 500px;
   height: 600px;
 }
 .image-2 {
@@ -153,11 +165,15 @@ header .banner-1 {
   height: 300px;
 }
 .image-3 {
-  width: 500px;
+  width: 520px;
   height: 600px;
 }
 #portfolio {
   margin-bottom: 30px;
+  margin-top: 30px;
+}
+.portfolio {
+  margin-top: 100px;
 }
 .newsletter {
   background-color: rgba(255, 0, 0, 0.05);
